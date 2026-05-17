@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dent Mate Clinic — Premium Dental Specialists | Dhaka</title>
+  <meta name="description" content="Dent Mate Clinic — Premium dental care in Dhaka featuring expert oral &amp; maxillofacial surgeons Dr. Wasif Imran and Dr. Samiul Alim. Book your appointment at dentmateclinic.com" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- SCROLL PROGRESS BAR -->
+  <div id="scrollProgress" class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- PAGE PRELOADER -->
+  <div id="preloader" class="preloader" role="status" aria-label="Loading">
+    <div class="preloader__inner">
+      <div class="preloader__logo"><i class="fa-solid fa-tooth"></i></div>
+      <div class="preloader__text">Dent Mate Clinic</div>
+      <div class="preloader__bar"><div class="preloader__fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ================================================
+       SECTION 0: STICKY NAVBAR
+  ================================================ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo">
+          <img src="logo.png" alt="Dent Mate Clinic" class="navbar__logo-img" />
+        </a>
+        <ul class="navbar__links" id="navLinks">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#appointment" class="navbar__cta">Book Appointment</a></li>
+        </ul>
+        <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================================================
+       SECTION 1: HERO — HIGH-CONVERSION FIRST IMPRESSION
+  ================================================ -->
+  <section class="hero" id="hero">
+    <video class="hero__video-bg" autoplay muted loop playsinline>
+      <source src="dental-video.mp4.mp4" type="video/mp4" />
+    </video>
+    <div class="hero__overlay"></div>
+
+    <!-- Particles -->
+    <div class="hero__particles" aria-hidden="true">
+      <div class="particle p1"></div><div class="particle p2"></div>
+      <div class="particle p3"></div><div class="particle p4"></div>
+      <div class="particle p5"></div><div class="particle p6"></div>
+      <div class="particle p7"></div><div class="particle p8"></div>
+    </div>
+
+    <div class="container">
+      <div class="hero__content">
+
+        <!-- Left: Doctor 1 Card (Dr. Wasif Imran) -->
+        <div class="hero__doctor-wrap hero__doctor-wrap--left entrance-left">
+          <div class="hero__doctor-card">
+            <!-- Portrait Area -->
+            <div class="hero__portrait-container">
+              <div class="hero__hud-ring hero__hud-ring--1"></div>
+              <div class="hero__hud-ring hero__hud-ring--2"></div>
+              <div class="hero__portrait-frame">
+                <div class="hero__reflection"></div>
+                <img src="doctor.png" alt="Dr. Wasif Imran — Senior Surgeon" class="hero__portrait-img hero__doctor-img" />
+              </div>
+              <div class="hero__particle-ring"></div>
+            </div>
+            
+            <!-- Glassmorphism Info Card -->
+            <div class="hero__doctor-info-card">
+              <span class="hero__doc-tag"><i class="fa-solid fa-award"></i> Senior Surgeon</span>
+              <h3>Dr. Wasif Imran</h3>
+              <p class="hero__doc-specialty">BDS, PGT, MPH</p>
+              <div class="hero__doc-divider"></div>
+              <p class="hero__doc-desc">Advanced Oral Surgery &amp; Restorative Care</p>
+              <div class="hero__doc-bmdc"><i class="fa-solid fa-id-card"></i> BMDC Reg: 5958</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center: Dent Mate Branding & Headline -->
+        <div class="hero__brand-wrap entrance-bottom">
+          <div class="hero__badge-container">
+            <span class="hero__badge-pill"><i class="fa-solid fa-shield-halved"></i> Advanced Dentistry</span>
+            <span class="hero__badge-pill"><i class="fa-solid fa-wand-magic-sparkles"></i> Smile Design</span>
+            <span class="hero__badge-pill"><i class="fa-solid fa-microscope"></i> Digital Tech</span>
+          </div>
+          
+          <div class="hero__brand-content">
+            <div class="hero__brand-subtitle">DENT MATE CLINIC</div>
+            <h1 class="hero__headline">Advanced Dental Care for <span>Modern Smiles</span></h1>
+            <p class="hero__subheadline">
+              Dent Mate combines expert specialists, modern technology, and precision treatment to deliver a premium dental experience.
+            </p>
+            <p class="hero__supporting-text">
+              Trusted dental professionals providing world-class care with comfort and innovation.
+            </p>
+            
+            <div class="hero__cta-buttons">
+              <a href="#appointment" class="btn btn--primary btn--shine">
+                <i class="fa-solid fa-calendar-check"></i> Book Appointment
+              </a>
+              <a href="tel:01714082916" class="btn btn--outline">
+                <i class="fa-solid fa-phone"></i> Call Specialists
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Doctor 2 Card (Dr. Md. Samiul Alim) -->
+        <div class="hero__doctor-wrap hero__doctor-wrap--right entrance-right">
+          <div class="hero__doctor-card">
+            <!-- Portrait Area -->
+            <div class="hero__portrait-container">
+              <div class="hero__hud-ring hero__hud-ring--1"></div>
+              <div class="hero__hud-ring hero__hud-ring--2"></div>
+              <div class="hero__portrait-frame">
+                <div class="hero__reflection"></div>
+                <img src="doctor1.png" alt="Dr. Md. Samiul Alim — OMS Specialist" class="hero__portrait-img hero__doctor-img" />
+              </div>
+              <div class="hero__particle-ring"></div>
+            </div>
+            
+            <!-- Glassmorphism Info Card -->
+            <div class="hero__doctor-info-card">
+              <span class="hero__doc-tag hero__doc-tag--accent"><i class="fa-solid fa-stethoscope"></i> OMS Specialist</span>
+              <h3>Dr. Md. Samiul Alim</h3>
+              <p class="hero__doc-specialty">FCPS Part II (OMS)</p>
+              <div class="hero__doc-divider"></div>
+              <p class="hero__doc-desc">Implantology &amp; Complex Facial Surgery</p>
+              <div class="hero__doc-bmdc"><i class="fa-solid fa-university"></i> Dhaka Dental College</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Stats Row -->
+      <div class="hero__stats entrance-bottom">
+        <div class="hero__stat">
+          <div class="hero__stat-num counter" data-target="12" data-suffix="+">0+</div>
+          <div class="hero__stat-label">Years Experience</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-num counter" data-target="5000" data-suffix="+">0+</div>
+          <div class="hero__stat-label">Happy Patients</div>
+        </div>
+        <div class="hero__stat">
+          <div class="hero__stat-num counter" data-target="98" data-suffix="%">0%</div>
+          <div class="hero__stat-label">Success Rate</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Wave Divider: Hero → Trust -->
+  <div class="wave-divider wave-divider--white" aria-hidden="true">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#ffffff"/></svg>
+  </div>
+
+  <!-- ================================================
+       SECTION 2: TRUST INDICATORS
+  ================================================ -->
+  <section class="trust-bar" id="trust">
+    <div class="container">
+      <div class="trust-bar__grid">
+        <div class="trust-bar__item">
+          <div class="trust-bar__icon"><i class="fa-solid fa-user-doctor"></i></div>
+          <div class="trust-bar__info">
+            <strong>Experienced Surgeon</strong>
+            <span>12+ Years in Practice</span>
+          </div>
+        </div>
+        <div class="trust-bar__item">
+          <div class="trust-bar__icon"><i class="fa-solid fa-certificate"></i></div>
+          <div class="trust-bar__info">
+            <strong>BMDC Registered</strong>
+            <span>Reg. No: 5958</span>
+          </div>
+        </div>
+        <div class="trust-bar__item">
+          <div class="trust-bar__icon"><i class="fa-solid fa-x-ray"></i></div>
+          <div class="trust-bar__info">
+            <strong>Urgent X-Ray</strong>
+            <span>On-Site Facility</span>
+          </div>
+        </div>
+        <div class="trust-bar__item">
+          <div class="trust-bar__icon"><i class="fa-solid fa-heart-pulse"></i></div>
+          <div class="trust-bar__info">
+            <strong>Patient-Focused</strong>
+            <span>Gentle &amp; Painless Care</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECTION 3: ABOUT THE DOCTORS (MEET THE EXPERTS)
+  ================================================ -->
+  <section class="intro" id="about">
+    <div class="intro__timeline-line"></div>
+    <div class="container">
+      
+      <!-- Doctor 1: Dr. Wasif Imran (Image LEFT, Info RIGHT) -->
+      <div class="intro__doctor-profile entrance-bottom">
+        <!-- Left: Image -->
+        <div class="intro__image-wrap">
+          <div class="intro__glow"></div>
+          <div class="intro__image-container">
+            <img src="doctor.png" alt="Dr. Wasif Imran — Oral &amp; Dental Surgeon" class="intro__image" />
+            <div class="intro__badge">
+              <div class="intro__badge-num">✨</div>
+              <div class="intro__badge-text">Urgent X-Ray Available</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Info -->
+        <div class="intro__text">
+          <div class="section-header__tag">Oral &amp; Dental Surgeon</div>
+          <h2>Meet Dr. <span>Wasif Imran</span></h2>
+          
+          <p>Dr. Wasif Imran is a highly committed Oral &amp; Dental Surgeon dedicated to providing expert, gentle, and painless dental care at Dent Mate Clinic, Mirpur, Dhaka. He specializes in advanced oral surgery and restorative dentistry.</p>
+
+          <div class="doctor-info-grid">
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <strong>Qualifications</strong>
+              <span>BDS, PGT, MPH</span>
+            </div>
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-stethoscope"></i>
+              <strong>Specialization</strong>
+              <span>Oral &amp; Dental Surgeon</span>
+            </div>
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-business-time"></i>
+              <strong>Experience</strong>
+              <span>12+ Years of Clinical Practice</span>
+            </div>
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-id-card"></i>
+              <strong>BMDC Registration</strong>
+              <span>Reg. No: 5958</span>
+            </div>
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+              <strong>Patient Care</strong>
+              <span>Gentle, Painless Treatments</span>
+            </div>
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-hospital"></i>
+              <strong>Clinic Details</strong>
+              <span>Dokkhina Tower, ECB Main Road, Mirpur</span>
+            </div>
+          </div>
+
+          <div class="intro__features">
+            <div class="intro__feature"><i class="fa-solid fa-circle-check" style="color:var(--primary-color);"></i> Gentle &amp; Pain-Free Treatments</div>
+            <div class="intro__feature"><i class="fa-solid fa-circle-check" style="color:var(--primary-color);"></i> Advanced Modern Equipment</div>
+            <div class="intro__feature"><i class="fa-solid fa-circle-check" style="color:var(--primary-color);"></i> Certified &amp; BMDC Registered</div>
+          </div>
+
+          <a href="#appointment" class="btn btn--blue" style="margin-top: 20px;">
+            Book with Dr. Wasif <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Doctor 2: Dr. Md. Samiul Alim (Image RIGHT, Info LEFT) -->
+      <div class="intro__doctor-profile entrance-bottom" style="margin-top: 100px;">
+        <!-- Right: Image -->
+        <div class="intro__image-wrap">
+          <div class="intro__glow"></div>
+          <div class="intro__image-container">
+            <img src="doctor1.png" alt="Dr. Md. Samiul Alim — Oral &amp; Maxillofacial Surgeon" class="intro__image" />
+            <div class="intro__badge" style="left: 10px; right: auto;">
+              <div class="intro__badge-num">✨</div>
+              <div class="intro__badge-text">OMS Specialist</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left: Info -->
+        <div class="intro__text">
+          <div class="section-header__tag">Oral &amp; Maxillofacial Surgery</div>
+          <h2>Meet Dr. <span>Md. Samiul Alim</span></h2>
+          
+          <p>Dr. Md. Samiul Alim is a premier specialist in Oral &amp; Maxillofacial Surgery (OMS). Trained extensively at Dhaka Dental College, he leads Dent Mate's advanced surgical cases, including complicated extractions, implantology, and facial reconstructive care.</p>
+
+          <div class="doctor-info-grid">
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <strong>Qualifications</strong>
+              <span>FCPS Part II (OMS)</span>
+            </div>
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-stethoscope"></i>
+              <strong>Specialization</strong>
+              <span>Maxillofacial Surgeon</span>
+            </div>
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-university"></i>
+              <strong>Institution</strong>
+              <span>Dhaka Dental College</span>
+            </div>
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              <strong>Advanced Tech</strong>
+              <span>Implant &amp; Reconstructive Surgery</span>
+            </div>
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-award"></i>
+              <strong>Expertise</strong>
+              <span>Complex Surgical Extraction</span>
+            </div>
+            <div class="doctor-info-card">
+              <i class="fa-solid fa-shield-halved"></i>
+              <strong>Clinical Safety</strong>
+              <span>100% Sterile Operation Theater</span>
+            </div>
+          </div>
+
+          <div class="intro__features">
+            <div class="intro__feature"><i class="fa-solid fa-circle-check" style="color:var(--primary-color);"></i> Complex Maxillofacial Extractions</div>
+            <div class="intro__feature"><i class="fa-solid fa-circle-check" style="color:var(--primary-color);"></i> High-Precision Dental Implants</div>
+            <div class="intro__feature"><i class="fa-solid fa-circle-check" style="color:var(--primary-color);"></i> Painless Surgical Protocols</div>
+          </div>
+
+          <a href="#appointment" class="btn btn--blue" style="margin-top: 20px;">
+            Book with Dr. Samiul <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECTION 4: FEATURED DENTAL SERVICES
+  ================================================ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header__tag">Our Services</div>
+        <h2>What We <span>Offer</span></h2>
+        <p>Comprehensive dental care services tailored to your needs, delivered with expertise and compassion.</p>
+        <div class="section-divider"><span class="section-divider__dot"></span></div>
+      </div>
+
+      <div class="services__grid">
+
+        <!-- Card 1 -->
+        <div class="service-card">
+          <img src="1.png" alt="Oral Surgery" class="service-card__img" />
+          <div class="service-card__price-tag">&#2547; 1,000 Taka</div>
+          <div class="service-card__body">
+            <div class="service-card__icon">&#x1F9B7;</div>
+            <h3>Oral &amp; Maxillofacial Surgery</h3>
+            <p>Advanced surgical procedures for complex dental issues with a focus on patient comfort and safety.</p>
+            <a href="services.html" class="btn--sm">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="service-card">
+          <img src="2.png" alt="Dental X-Ray" class="service-card__img" />
+          <div class="service-card__price-tag">&#2547; 500 Taka</div>
+          <div class="service-card__body">
+            <div class="service-card__icon">&#x1F4E1;</div>
+            <h3>Urgent Dental X-Ray</h3>
+            <p>On-site X-ray facility for quick and accurate diagnosis of all dental problems. Urgent slots available.</p>
+            <a href="services.html" class="btn--sm">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="service-card">
+          <img src="3.png" alt="Scaling & Polishing" class="service-card__img" />
+          <div class="service-card__price-tag">&#2547; 1,500 Taka</div>
+          <div class="service-card__body">
+            <div class="service-card__icon">&#x2728;</div>
+            <h3>Scaling &amp; Polishing</h3>
+            <p>Professional teeth cleaning, scaling and polishing to keep your smile healthy and sparkling.</p>
+            <a href="services.html" class="btn--sm">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="service-card">
+          <img src="4.png" alt="Root Canal" class="service-card__img" />
+          <div class="service-card__price-tag">&#2547; 3,000 Taka</div>
+          <div class="service-card__body">
+            <div class="service-card__icon">&#x1FA77;</div>
+            <h3>Root Canal Treatment</h3>
+            <p>Pain-free root canal therapy to save and restore your natural tooth with lasting results.</p>
+            <a href="services.html" class="btn--sm">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="service-card">
+          <img src="5.png" alt="Tooth Extraction" class="service-card__img" />
+          <div class="service-card__price-tag">&#2547; 800 Taka</div>
+          <div class="service-card__body">
+            <div class="service-card__icon">&#x1F9B4;</div>
+            <h3>Tooth Extraction</h3>
+            <p>Safe and painless tooth extraction procedures performed with expert precision and care.</p>
+            <a href="services.html" class="btn--sm">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="service-card">
+          <img src="6.png" alt="Cosmetic Dentistry" class="service-card__img" />
+          <div class="service-card__price-tag">&#2547; 2,500 Taka</div>
+          <div class="service-card__body">
+            <div class="service-card__icon">&#x1F31F;</div>
+            <h3>Cosmetic Dentistry</h3>
+            <p>Enhance your smile with teeth whitening, veneers, and cosmetic dental treatments.</p>
+            <a href="services.html" class="btn--sm">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div style="text-align:center;margin-top:44px;">
+        <a href="services.html" class="btn btn--blue">
+          View All Services <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECTION 5: WHY CHOOSE OUR CLINIC
+  ================================================ -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header__tag">Why Choose Us</div>
+        <h2>The <span>Dent Mate</span> Difference</h2>
+        <p>At Dent Mate Clinic, Mirpur, we go beyond treatment — delivering a complete, comfortable, and caring experience for every patient in Dhaka.</p>
+        <div class="section-divider"><span class="section-divider__dot"></span></div>
+      </div>
+      <div class="why-us__grid">
+        <div class="why-us__card">
+          <div class="why-us__icon"><i class="fa-solid fa-user-doctor"></i></div>
+          <h3>Experienced Surgeon</h3>
+          <p>Dr. Wasif Imran holds advanced degrees and 12+ years of clinical experience in oral surgery and dental care.</p>
+        </div>
+        <div class="why-us__card">
+          <div class="why-us__icon"><i class="fa-solid fa-microscope"></i></div>
+          <h3>Modern Sterilized Equipment</h3>
+          <p>We use the latest dental technology and strictly maintain sterilization protocols for your safety.</p>
+        </div>
+        <div class="why-us__card">
+          <div class="why-us__icon"><i class="fa-solid fa-face-smile"></i></div>
+          <h3>Comfortable Environment</h3>
+          <p>Our clinic is designed to ease dental anxiety — clean, calm, and patient-friendly at every step.</p>
+        </div>
+        <div class="why-us__card">
+          <div class="why-us__icon"><i class="fa-solid fa-x-ray"></i></div>
+          <h3>Urgent X-Ray On-Site</h3>
+          <p>No need to go elsewhere — our in-clinic X-ray facility provides immediate diagnostic results.</p>
+        </div>
+        <div class="why-us__card">
+          <div class="why-us__icon"><i class="fa-solid fa-bangladeshi-taka-sign"></i></div>
+          <h3>Affordable Treatment</h3>
+          <p>High-quality dental care at transparent, affordable prices — making dental health accessible for all.</p>
+        </div>
+        <div class="why-us__card">
+          <div class="why-us__icon"><i class="fa-solid fa-clock"></i></div>
+          <h3>Flexible Visiting Hours</h3>
+          <p>Morning and evening sessions available so you can visit at a time that fits your schedule.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECTION 6: PATIENT TESTIMONIALS
+  ================================================ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header__tag">Patient Reviews</div>
+        <h2>What Our <span>Patients Say</span></h2>
+        <p>Real experiences from real patients who trust us with their smiles.</p>
+        <div class="section-divider"><span class="section-divider__dot"></span></div>
+      </div>
+      <div class="testimonials__grid">
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I had a wonderful experience at Dr. Wasif Imran's clinic. The treatment was completely painless and my smile has never looked better. The staff is so professional and caring. Highly recommended!"</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">A</div>
+            <div class="testimonial-card__info">
+              <strong>Ayesha Rahman</strong>
+              <span>Verified Patient</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"Dr. Wasif Imran is very professional and caring. The clinic is spotlessly clean and I felt completely comfortable throughout my treatment. My teeth feel healthier than ever! Thank you!"</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">R</div>
+            <div class="testimonial-card__info">
+              <strong>Rafiq Ahmed</strong>
+              <span>Verified Patient</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"The urgent X-ray facility saved me so much time. Dr. Wasif Imran diagnosed my issue immediately and the treatment was swift and effective. Best dental clinic in Dhaka!"</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">S</div>
+            <div class="testimonial-card__info">
+              <strong>Sara Begum</strong>
+              <span>Verified Patient</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>"I was terrified of dentists before visiting Dent Mate Clinic. Dr. Wasif Imran and his team made me feel at ease from the very first moment. Outstanding service!"</blockquote>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">M</div>
+            <div class="testimonial-card__info">
+              <strong>Mohammad Hasan</strong>
+              <span>Verified Patient</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECTION 7: CLINIC GALLERY
+  ================================================ -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header__tag">Clinic Gallery</div>
+        <h2>Inside Our <span>Clinic</span></h2>
+        <p>A modern, clean, and welcoming environment designed with your comfort in mind.</p>
+        <div class="section-divider"><span class="section-divider__dot"></span></div>
+      </div>
+      <div class="gallery__grid">
+        <div class="gallery__item gallery__item--wide">
+          <img src="1.png" alt="Dental Treatment Room" />
+          <div class="gallery__overlay"><span>Treatment Room</span></div>
+        </div>
+        <div class="gallery__item">
+          <img src="2.png" alt="X-Ray Facility" />
+          <div class="gallery__overlay"><span>X-Ray Facility</span></div>
+        </div>
+        <div class="gallery__item">
+          <img src="3.png" alt="Dental Equipment" />
+          <div class="gallery__overlay"><span>Modern Equipment</span></div>
+        </div>
+        <div class="gallery__item">
+          <img src="4.png" alt="Clinic Interior" />
+          <div class="gallery__overlay"><span>Clinic Interior</span></div>
+        </div>
+        <div class="gallery__item">
+          <img src="5.png" alt="Doctor at Work" />
+          <div class="gallery__overlay"><span>Expert Care</span></div>
+        </div>
+        <div class="gallery__item gallery__item--wide">
+          <img src="6.png" alt="Consultation Room" />
+          <div class="gallery__overlay"><span>Consultation Room</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECTION 8: VISITING HOURS
+  ================================================ -->
+  <section class="hours" id="hours">
+    <div class="container">
+      <div class="hours__inner">
+        <div class="hours__text">
+          <div class="section-header__tag">Schedule</div>
+          <h2>Visiting <span>Hours</span></h2>
+          <p>We are open six days a week and available for urgent consultations during visiting hours. Walk-ins welcome.</p>
+          <div class="hours__special">
+            <i class="fa-solid fa-x-ray"></i>
+            <span><strong>Special Facility:</strong> Urgent Dental X-Ray Available</span>
+          </div>
+          <a href="#appointment" class="btn btn--blue" style="margin-top:24px;">
+            <i class="fa-solid fa-calendar-check"></i> Book Appointment
+          </a>
+        </div>
+        <div class="hours__schedule">
+          <!-- Friday: Closed -->
+          <div class="hours__row">
+            <div class="hours__day"><i class="fa-solid fa-calendar-xmark"></i> Friday</div>
+            <div class="hours__time hours__closed">Closed</div>
+          </div>
+          <div class="hours__divider"></div>
+          <!-- Saturday -->
+          <div class="hours__row hours__row--active">
+            <div class="hours__day"><i class="fa-solid fa-calendar-day"></i> Saturday</div>
+            <div class="hours__time">11:00 AM &ndash; 2:00 PM &nbsp;&bull;&nbsp; 5:00 PM &ndash; 9:30 PM</div>
+          </div>
+          <div class="hours__divider"></div>
+          <!-- Sunday -->
+          <div class="hours__row hours__row--active">
+            <div class="hours__day"><i class="fa-solid fa-calendar-day"></i> Sunday</div>
+            <div class="hours__time">11:00 AM &ndash; 2:00 PM &nbsp;&bull;&nbsp; 5:00 PM &ndash; 9:30 PM</div>
+          </div>
+          <div class="hours__divider"></div>
+          <!-- Monday &ndash; Wednesday -->
+          <div class="hours__row hours__row--active">
+            <div class="hours__day"><i class="fa-solid fa-calendar-day"></i> Mon &ndash; Wed</div>
+            <div class="hours__time">11:00 AM &ndash; 2:00 PM &nbsp;&bull;&nbsp; 5:00 PM &ndash; 9:30 PM</div>
+          </div>
+          <div class="hours__divider"></div>
+          <!-- Thursday -->
+          <div class="hours__row hours__row--active">
+            <div class="hours__day"><i class="fa-solid fa-calendar-day"></i> Thursday</div>
+            <div class="hours__time">11:00 AM &ndash; 2:00 PM &nbsp;&bull;&nbsp; 5:30 PM &ndash; 9:30 PM</div>
+          </div>
+          <div class="hours__note">
+            <i class="fa-solid fa-phone-volume"></i>
+            <span>Appointments: <a href="tel:01714082916">01714-082916</a></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECTION 9: CONTACT & APPOINTMENT
+  ================================================ -->
+  <section class="contact" id="contact">
+    <div class="container--narrow">
+      <div class="contact__card">
+        <div class="contact__top">
+          <h2>&#x1F4CD; Find Us &amp; Book a Visit</h2>
+          <p>We are here to serve you — reach out any time during visiting hours.</p>
+        </div>
+        <div class="contact__info">
+          <div class="contact__item">
+            <div class="contact__item-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <div class="contact__item-label">Phone Number</div>
+              <div class="contact__item-val">01714-082916</div>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <div class="contact__item-label">Clinic Address</div>
+              <div class="contact__item-val">House-543/A, Dokkhina Tower<br>ECB Main Road, Mirpur<br>Dhaka 1206, Bangladesh</div>
+            </div>
+          </div>
+          <div class="contact__item">
+            <div class="contact__item-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <div class="contact__item-label">Visiting Hours</div>
+              <div class="contact__item-val">Sat &ndash; Thu: 11:00 AM &ndash; 2:00 PM<br>Evening: 5:00 PM &ndash; 9:30 PM<br><span style="color:#e74c3c;">Friday: Closed</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="contact__buttons">
+          <a href="tel:01714082916" class="btn btn--call">
+            <i class="fa-solid fa-phone"></i> Call Now
+          </a>
+          <a href="https://wa.me/8801714082916" target="_blank" class="btn btn--whatsapp">
+            <i class="fa-brands fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Appointment Form -->
+  <section class="appointment section" id="appointment">
+    <div class="container container--narrow">
+      <div class="appointment__card entrance-bottom">
+        <div class="section-header">
+          <div class="section-header__tag">Fast Booking</div>
+          <h2>Book an <span>Appointment</span></h2>
+          <p>Schedule your visit in less than a minute. Our team will contact you to confirm.</p>
+        </div>
+        <form id="appointmentForm" class="appointment-form">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name"><i class="fa-solid fa-user"></i> Full Name</label>
+              <input type="text" id="name" placeholder="Enter your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="phone"><i class="fa-solid fa-phone"></i> Phone Number</label>
+              <input type="tel" id="phone" placeholder="Enter your phone number" required />
+            </div>
+            <div class="form-group">
+              <label for="date"><i class="fa-solid fa-calendar-days"></i> Preferred Date</label>
+              <input type="date" id="date" required />
+            </div>
+            <div class="form-group">
+              <label for="service"><i class="fa-solid fa-tooth"></i> Select Treatment</label>
+              <select id="service" required>
+                <option value="">Select Treatment</option>
+                <option>Oral &amp; Maxillofacial Surgery</option>
+                <option>Urgent Dental X-Ray</option>
+                <option>Scaling &amp; Polishing</option>
+                <option>Root Canal Treatment (RCT)</option>
+                <option>Fillings &amp; Restorations</option>
+                <option>Braces &amp; Orthodontics</option>
+                <option>Dental Crowns &amp; Bridges</option>
+                <option>Tooth Extraction</option>
+                <option>Cosmetic Dentistry</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message"><i class="fa-solid fa-comment-dots"></i> Additional Notes</label>
+            <textarea id="message" placeholder="Any specific concerns or requests?"></textarea>
+          </div>
+          <button type="submit" class="btn btn--blue btn--shine w-100">
+            <i class="fa-solid fa-paper-plane"></i> Submit Appointment
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SECTION 10: PROFESSIONAL FOOTER
+  ================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+
+        <!-- Brand -->
+        <div class="footer__brand">
+          <div class="footer__logo"><span><i class="fa-solid fa-tooth"></i></span> Dent Mate Clinic</div>
+          <p>Dent Mate Clinic — Dedicated to providing gentle, compassionate, and expert dental care to patients of all ages in Dhaka.</p>
+          <div class="footer__social">
+            <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/8801714082916" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About Specialists</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#testimonials">Patient Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Services Links -->
+        <div class="footer__col">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="services.html">Oral Surgery</a></li>
+            <li><a href="services.html">Urgent Dental X-Ray</a></li>
+            <li><a href="services.html">Root Canal Treatment</a></li>
+            <li><a href="services.html">Teeth Cleaning</a></li>
+            <li><a href="services.html">Tooth Extraction</a></li>
+            <li><a href="services.html">Cosmetic Dentistry</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">&#x1F4CD; Dokkhina Tower, ECB Main Road<br>Mirpur, Dhaka 1206</a></li>
+            <li><a href="tel:01714082916">&#x1F4DE; 01714-082916</a></li>
+            <li><a href="https://dentmateclinic.com" target="_blank">&#x1F310; dentmateclinic.com</a></li>
+            <li><a href="#">&#x1F550; Sat&ndash;Thu: 11AM&ndash;2PM, 5PM&ndash;9:30PM</a></li>
+            <li><a href="#" style="color:#e74c3c;">&#x274C; Friday: Closed</a></li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="footer__bottom">
+        &copy; 2026 Dent Mate Clinic. All Rights Reserved. Designed with &#x2764;&#xFE0F; for Healthcare.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Social Buttons -->
+  <div class="social-float">
+    <a href="#" target="_blank" class="social-float__btn social-float__facebook">
+      <span class="social-tooltip">Facebook</span>
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="#" target="_blank" class="social-float__btn social-float__instagram">
+      <span class="social-tooltip">Instagram</span>
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+
+  <a href="https://wa.me/8801714082916" target="_blank" class="whatsapp-float" id="whatsappFloat" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-float__tooltip">Chat with us!</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
